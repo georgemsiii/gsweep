@@ -1,0 +1,19 @@
+{
+  "name": "gsweep",
+  "displayName": "GSweep",
+  "version": "0.1.0",
+  "description": "Sweeps stale .git lock files stranded by Claude Cowork mounted-folder sessions, where git can create but not delete files. One skill: diagnose the problem, clean it safely, and install durable cleanup automation (macOS launchd agent and/or Claude Code hook).",
+  "author": {
+    "name": "George Santangelo",
+    "email": "george@bmwdarien.com"
+  },
+  "license": "MIT",
+  "keywords": [
+    "git",
+    "index.lock",
+    "stale-locks",
+    "cowork",
+    "launchd",
+    "cleanup"
+  ]
+}

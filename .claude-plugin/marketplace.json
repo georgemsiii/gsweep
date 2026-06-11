@@ -1,0 +1,17 @@
+{
+  "name": "gsweep",
+  "owner": {
+    "name": "George Santangelo",
+    "email": "george@bmwdarien.com"
+  },
+  "metadata": {
+    "description": "gsweep — stale git-lock sweeper for Cowork-mounted repos"
+  },
+  "plugins": [
+    {
+      "name": "gsweep",
+      "source": "./",
+      "description": "Diagnose and permanently fix stale .git/*.lock files in Cowork-mounted repos."
+    }
+  ]
+}
