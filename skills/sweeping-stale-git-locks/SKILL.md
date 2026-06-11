@@ -1,6 +1,6 @@
 ---
 name: sweeping-stale-git-locks
-description: Use when git fails with "Unable to create '.git/index.lock': File exists" (or HEAD.lock, config.lock, objects/maintenance.lock) with no git process running — especially in repos linked to Claude Cowork or another mounted/synced folder, when lock files keep reappearing over days, or when a cloud/mounted session's git cannot delete files it created.
+description: "Use when git fails with \"Unable to create '.git/index.lock': File exists\" (or HEAD.lock, config.lock, objects/maintenance.lock) with no git process running — especially in repos linked to Claude Cowork or another mounted/synced folder, when lock files keep reappearing over days, or when a cloud/mounted session's git cannot delete files it created."
 ---
 
 # Sweeping Stale Git Locks
